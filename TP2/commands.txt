@@ -1,0 +1,23 @@
+```
+For compression:
+ python lzw.py compress -i image1.txt -o binary_image1.bin
+
+  python lzw.py compress -i image2.txt -o binary_image2.bin
+
+  python lzw.py compress -i image3.txt -o binary_image3.bin
+
+```
+For decompression:
+```
+
+python lzw.py decompress -i binary_image1.bin -o uncompressed_image1.txt
+python lzw.py decompress -i binary_image2.bin -o uncompressed_image2.txt
+
+python lzw.py decompress -i binary_image3.bin -o uncompressed_image3.txt
+
+
+python lzw1.py compress -i image1.txt -o binary_image.bin
+python lzw1.py decompress -i binary_image.bin -o uncompressed_image.txt
+
+python Lzw2.py compress -i image.txt -o binary_image.bin
+python Lzw2.py decompress -i binary_image.bin -o uncompressed_image.txt
